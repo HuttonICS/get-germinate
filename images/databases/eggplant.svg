@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  ~ Germinate 3 is written and developed by Sebastian Raubach and Paul Shaw from the Information and Computational Sciences Group at JHI Dundee. For
+  ~ further information contact us at germinate@hutton.ac.uk or visit our webpages at https://ics.hutton.ac.uk/germinate
+  ~
+  ~ Copyright © 2005-2017, Information & Computational Sciences, The James Hutton Institute. All rights reserved. Use is subject to the accompanying
+  ~ licence terms.
+  -->
+
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 43 43"
+   id="svg2994"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="eggplant.svg"
+   inkscape:export-xdpi="25.799999"
+   inkscape:export-ydpi="25.799999">
+  <defs
+     id="defs2996" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="4"
+     inkscape:cx="-98.16318"
+     inkscape:cy="46.353305"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3148"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-200"
+       originy="-799.98718"
+       spacingx="1"
+       spacingy="1" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2999">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-200,-209.375)">
+    <g
+       id="g4591"
+       transform="matrix(0.61150333,0,0,0.61150333,136.19528,124.85559)">
+      <path
+         d="m 150.13138,159.35587 h -0.016 c -3.92974,9.22208 -13.40193,5.86259 -13.40193,5.86259 -2.24899,-1.05647 -4.7501,-1.66474 -7.39927,-1.66474 -9.62626,0 -17.43172,7.80546 -17.43172,17.43171 0,8.66384 6.3268,15.83101 14.61047,17.18361 l -0.006,0.02 c 0,0 27.42613,5.72853 39.44945,-33.2127 l -0.032,-0.02"
+         style="fill:none;stroke:#ffffff;stroke-width:2.00088525;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path9882"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 166.62487,165.29109 c 1.61672,-4.66606 -0.85638,-9.75631 -5.52044,-11.37503 -4.66606,-1.61472 -9.75832,0.85638 -11.37503,5.52244 l 5.52444,0.056 2.33303,4.57002 4.70208,-2.08692 z"
+         style="fill:none;stroke:#ffffff;stroke-width:2.00088525;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path9886"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 161.80734,153.91686 c 0,0 0.9004,-2.27101 0.70231,-5.63049"
+         style="fill:none;stroke:#ffffff;stroke-width:2.00088525;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path9890"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 115.72535,183.08216 1.04247,2.43708"
+         style="fill:none;stroke:#ffffff;stroke-width:2.00088525;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         id="path9894"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
