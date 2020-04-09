@@ -8995,3 +8995,23 @@ textarea.form-control {
   height: 150px;
   width: auto;
 }
+
+.parallax {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  color: #fff;
+}
+
+#parallax-1 {
+  background: url(../images/background1.jpg);
+}
+
+#parallax-2 {
+  background: url(../images/background2.jpg);
+}
+
+.ftco-section-parallax .parallax-img.parallax-overlay {
+  background: rgba(44,137,160,.5);
+}
