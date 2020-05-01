@@ -7713,19 +7713,36 @@ h1, h2, h3, h4, h5,
   border-radius: 50%; }
   .services .icon.color-1 {
     background: #ff9e15; }
-    .services .icon.color-1 span {
+    .services .icon.color-1 span,
+    .services .icon.color-1 img {
       color: #ffddad; }
   .services .icon.color-2 {
-    background: #799900; }
+    background: #FFD100; }
     .services .icon.color-2 span {
-      color: #deff66; }
+      color: #ffec99; }
   .services .icon.color-3 {
-    background: #00748c; }
+    background: #d6c200; }
     .services .icon.color-3 span {
-      color: #57e3ff; }
+      color: #fff170; }
   .services .icon.color-4 {
-    background: #853175; }
+    background: #799900; }
     .services .icon.color-4 span {
+      color: #deff66; }
+  .services .icon.color-5 {
+    background: #6aa2b8; }
+    .services .icon.color-5 span {
+      color: #d2e3e9; }
+  .services .icon.color-6 {
+    background: #00748c; }
+    .services .icon.color-6 span {
+      color: #57e3ff; }
+  .services .icon.color-7 {
+    background: #cf009e; }
+    .services .icon.color-7 span {
+      color: #ff6bdc; }
+  .services .icon.color-8 {
+    background: #853175; }
+    .services .icon.color-8 span {
       color: #dea6d4; }
 
 .services .media-body h3 {
@@ -8377,6 +8394,10 @@ textarea.form-control {
 
 .block-6 {
   margin-bottom: 40px; }
+  .block-6 .icon img {
+    width: 40px;
+    height: 40px;
+  }
   .block-6 .icon span:before {
     font-size: 40px; }
   .block-6 .media-body p {
