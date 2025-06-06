@@ -9033,6 +9033,37 @@ textarea.form-control {
   background: url(../images/background2.jpg);
 }
 
+.icon-demo .bi, .icon-demo-examples .bi {
+    width: 1em;
+    height: 1em;
+}
+
+.bi {
+    display: inline-block;
+    vertical-align: -.125em;
+    fill: currentcolor;
+}
+
 .ftco-section-parallax .parallax-img.parallax-overlay {
   background: rgba(44,137,160,.5);
+}
+
+.filtering-filter .bi {
+  display: none;
+}
+.filtering-filter.checked .bi {
+  display: inline-block;
+}
+
+.filtering-filter.checked {
+    background-color: #55ddff;
+}
+
+.filtering-filter.disabled {
+    color: lightgrey;
+}
+
+/* Items */
+.filtering-item.filtered {
+    display: none;
 }

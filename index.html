@@ -200,214 +200,260 @@
             <p>Below is a list of all available Germinate databases. Some require registration while others are fully public. Start exploring!</p>
           </div>
         </div>
-        <div class="row no-gutters ftco-animate" id="databases">
-          <a _href="#" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #719e23;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/barley.svg" class="img-responsive p-5" />
-              </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">Barley</h5>
-          </a>
 
-          <a href="https://ics.hutton.ac.uk/germinate-berrybase" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #c11d27;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/berrybase.svg" class="img-responsive p-5" />
-              </div>
+        <div id="crop-filtering">
+          <div class="text-center mb-3">
+            <div class="filtering-group" data-group-name="project" data-select-type="single">
+              <button class="filtering-filter btn checked" data-filter-type="all">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>
+                Show all
+              </button>
+              <button class="filtering-filter btn" data-filter-name="jhi">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>
+                JHI
+              </button>
+              <button class="filtering-filter btn" data-filter-name="cwr">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>
+                CWR
+              </button>
+              <button class="filtering-filter btn" data-filter-name="bold">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>
+                BOLD
+              </button>
+              <button class="filtering-filter btn" data-filter-name="cimmyt">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16"><path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/></svg>
+                CIMMYT
+              </button>
             </div>
-            <h5 class="text-center mb-0 py-2 text-light">Berrybase</h5>
-          </a>
+          </div>
 
-          <a href="https://germinate.hutton.ac.uk/demo" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #00acef;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/cactuar.svg" class="img-responsive p-5" />
+          <div class="row no-gutters ftco-animate" id="databases">
+            <a _href="#" data-filter-project="jhi" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #719e23;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/barley.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">Demo</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">Barley</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/germinate-cpc/" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #7f3f98;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/cpc.svg" class="img-responsive p-5" />
+            <a href="https://ics.hutton.ac.uk/germinate-berrybase" data-filter-project="jhi" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #c11d27;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/berrybase.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CPC</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">Berrybase</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/germinate-grasses" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #4CAF50;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/grasses.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/demo" data-filter-project="jhi" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #00acef;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/cactuar.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">Grasses</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">Demo</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/cowpea" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #963719;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/cowpea.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cpc/" data-filter-project="jhi" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #7f3f98;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/cpc.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Cowpea</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CPC</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/fingermillet" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #71212f;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/fingermillet.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/barn/" data-filter-project="jhi" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #e59b18;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/barn.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Finger Millet</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">BARN</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/grasspea" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #334eb2;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/grasspea.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/exhibit/" data-filter-project="jhi" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #5b9212;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/exhibit.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Grass Pea</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">BARN</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/pigeonpea" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #75a221;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/pigeonpea.svg" class="img-responsive p-5" />
+            <a href="https://ics.hutton.ac.uk/germinate-grasses" data-filter-project="jhi" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #4CAF50;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/grasses.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Pigeonpea</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">Grasses</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/chickpea" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #002855;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/chickpea.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/cowpea" data-filter-project="cwr" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #963719;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/cowpea.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Chickpea</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR Cowpea</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/alfalfa" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #952ea3;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/alfalfa.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/fingermillet" data-filter-project="cwr,bold" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #71212f;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/fingermillet.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Alfalfa</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR/BOLD Finger Millet</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/carrot" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #eb8921;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/carrot.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/grasspea" data-filter-project="cwr,bold" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #334eb2;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/grasspea.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Carrot</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR/BOLD Grass Pea</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/pearlmillet" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #e89113;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/pearlmillet.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/pigeonpea" data-filter-project="cwr" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #75a221;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/pigeonpea.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Pearl Millet</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR Pigeonpea</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/barley" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #c79e66;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/cwrbarley.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/chickpea" data-filter-project="cwr" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #002855;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/chickpea.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Barley</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR Chickpea</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/wheat" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #98694c;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/cwrwheat.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/alfalfa" data-filter-project="cwr,bold" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #952ea3;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/alfalfa.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Wheat</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR/BOLD Alfalfa</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/sorghum" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #d63511;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/sorghum.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/carrot" data-filter-project="cwr" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #eb8921;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/carrot.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Sorghum</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR Carrot</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/eggplant" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #614051;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/eggplant.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/pearlmillet" data-filter-project="cwr" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #e89113;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/pearlmillet.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Eggplant</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR Pearl Millet</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/rice" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #474747;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/rice.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/barley" data-filter-project="cwr,bold" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #c79e66;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/cwrbarley.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Rice</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR/BOLD Barley</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/sunflower" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #f39c12;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/sunflower.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/wheat" data-filter-project="cwr" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #98694c;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/cwrwheat.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR Sunflower</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR Wheat</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/cwr/diiva" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #00703c;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/diiva.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/sorghum" data-filter-project="cwr" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #d63511;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/sorghum.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CWR DIIVA</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR Sorghum</h5>
+            </a>
 
-          <a href="https://ics.hutton.ac.uk/rye" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #e89230;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/rye.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/eggplant" data-filter-project="cwr" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #614051;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/eggplant.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">Rye</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR Eggplant</h5>
+            </a>
 
-          <a href="http://germinate.cimmyt.org/maize" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #693;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/maize.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/rice" data-filter-project="cwr,bold" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #474747;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/rice.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CIMMYT Maize</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR/BOLD Rice</h5>
+            </a>
 
-          <a href="http://germinate.cimmyt.org/wheat" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #c7b000;">
-            <div class="database">
-              <div class="img-container">
-                <img src="images/databases/wheat.svg" class="img-responsive p-5" />
+            <a href="https://germinate.hutton.ac.uk/cwr/sunflower" data-filter-project="cwr" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #f39c12;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/sunflower.svg" class="img-responsive p-5" />
+                </div>
               </div>
-            </div>
-            <h5 class="text-center mb-0 py-2 text-light">CIMMYT Wheat</h5>
-          </a>
+              <h5 class="text-center mb-0 py-2 text-light">CWR Sunflower</h5>
+            </a>
 
+            <a href="https://germinate.hutton.ac.uk/cwr/diiva" data-filter-project="cwr,bold" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #00703c;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/diiva.svg" class="img-responsive p-5" />
+                </div>
+              </div>
+              <h5 class="text-center mb-0 py-2 text-light">CWR DIIVA</h5>
+            </a>
+
+            <a href="https://germinate.hutton.ac.uk/rye" data-filter-project="jhi" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #e89230;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/rye.svg" class="img-responsive p-5" />
+                </div>
+              </div>
+              <h5 class="text-center mb-0 py-2 text-light">Rye</h5>
+            </a>
+
+            <a href="http://germinate.cimmyt.org/maize" data-filter-project="cimmyt" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #693;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/maize.svg" class="img-responsive p-5" />
+                </div>
+              </div>
+              <h5 class="text-center mb-0 py-2 text-light">CIMMYT Maize</h5>
+            </a>
+
+            <a href="http://germinate.cimmyt.org/wheat" data-filter-project="cimmyt" class="filtering-item col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: #c7b000;">
+              <div class="database">
+                <div class="img-container">
+                  <img src="images/databases/wheat.svg" class="img-responsive p-5" />
+                </div>
+              </div>
+              <h5 class="text-center mb-0 py-2 text-light">CIMMYT Wheat</h5>
+            </a>
+
+          </div>
         </div>
       </div>
     </section>
@@ -778,6 +824,8 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/filteringjs.core.js"></script>
+  <script src="js/crop-filtering.js"></script>
   <script src="js/main.js"></script>
     
   </body>
